@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TrashUp</string>
+    <string name="title_home">Rumah</string>
+    <string name="name">Nama</string>
+    <string name="image">Gambar</string>
+    <string name="description">Deskripsi</string>
+    <string name="message_welcome_page">Saatnya Ubah Sampah Jadi Barang Berkualitas! TrashUp Mengajak Anda Berkreasi dan Peduli dengan Lingkungan.</string>
+    <string name="title_welcome_page">Selamat datang di TrashUp!</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya!</string>
+    <string name="title_articles">Artikel</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Jadilah Bagian dari Perubahan! Mari Ciptakan Lingkungan Lebih Bersih dan Kreatif dengan TrashUp!</string>
+    <string name="logout">Keluar</string>
+    <string name="gallery">Unggah Gambar</string>
+    <string name="camera">Foto Gambar</string>
+    <string name="hint_email">Masukkan Email</string>
+    <string name="hint_password">Masukkan Password</string>
+    <string name="popular_tutorial">Tutorial Populer</string>
+    <string name="analyze">Mulai Analisa</string>
+    <string name="result">Hasil Analisa</string>
+    <string name="maps">Titik Pembuangan Sampah</string>
+    <string name="favorite_fab">Favorite</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="mappin">Maps</string>
+    <string name="scan">Analisa</string>
+    <string name="title">Judul</string>
+    <string name="tools">Alat</string>
+    <string name="steps">Langkah-langkah</string>
+    <string name="wasteType">Jenis sampah</string>
+    <string name="view">Dilihat</string>
+    <string name="find_tps">Cari TPS Terdekat</string>
+    <string name="signup_tv">Belum punya akun? Daftar di sini!</string>
+</resources>

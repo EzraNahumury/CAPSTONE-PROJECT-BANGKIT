@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#57AF8A</color>
+    <color name="orange">#FFC401</color>
+    <color name="Green">#005F41</color>
+    <color name="grey" tools:ignore="UnusedResources">#AEAEAE</color>
+    <color name="textColor">#000000</color>
+</resources>

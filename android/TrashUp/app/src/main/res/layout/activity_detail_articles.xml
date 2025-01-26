@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.DetailArticlesActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- ImageView for Article Image -->
+        <ImageView
+            android:id="@+id/iv_detail_photo"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/image"
+            tools:src="@tools:sample/backgrounds/scenic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Floating Action Button for Favorite -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/favoriteFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="24dp"
+            android:contentDescription="@string/favorite_fab"
+            android:background="@color/green"
+            app:layout_constraintEnd_toEndOf="@id/iv_detail_photo"
+            app:layout_constraintBottom_toTopOf="@id/tv_detail_title"
+            app:srcCompat="@drawable/ic_bookmark_border_24"
+            tools:layout_editor_absoluteY="633dp" />
+
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/iv_detail_photo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_view_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/view"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="16dp"
+            android:justificationMode="inter_word"
+            android:text="@string/view"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_view_subheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:targetApi="o" />
+
+        <!-- Subheading and Waste Type TextView -->
+        <TextView
+            android:id="@+id/tv_detail_wasteType_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/wasteType"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_wasteType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="16dp"
+            android:justificationMode="inter_word"
+            android:text="@string/wasteType"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_wasteType_subheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:targetApi="o" />
+
+        <!-- Subheading and Description TextView -->
+        <TextView
+            android:id="@+id/tv_detail_description_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/description"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_wasteType"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="16dp"
+            android:justificationMode="inter_word"
+            android:text="@string/description"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_description_subheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:targetApi="o" />
+
+        <!-- Subheading and Tools TextView -->
+        <TextView
+            android:id="@+id/tv_detail_tools_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/tools"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/tools"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_tools_subheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Subheading and Steps TextView -->
+        <TextView
+            android:id="@+id/tv_detail_steps_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/steps"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_tools"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_detail_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="@string/steps"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_detail_steps_subheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
