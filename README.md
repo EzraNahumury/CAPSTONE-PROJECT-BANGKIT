@@ -7,7 +7,8 @@
 ## Project Documents:
 - Project Brief : [Project Brief](https://docs.google.com/document/d/1Jf8cpMMBZwa2zTwS1wDCoerl7HvR8DJolfOUouSnWYk/edit?tab=t.0)
 - Final presentation :  [Final presentation](https://www.youtube.com/watch?v=5pRdayG7myU)
-
+- PPT presentation : [PPT presentation](https://www.canva.com/design/DAGYgSEZ4p0/hJOQmWRh_qYMyxST-Zkk4g/edit?utm_content=DAGYgSEZ4p0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  
 ## Repositories
 
 |   Learning Paths   |                                Link                                |
